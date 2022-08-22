@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/'Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/'Montserrat-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    color: #533738;
+    background-color: #e5e5e5;
+    font-family: "Monserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+a {
+text-decoration: none;
+color: black;
+}
+h1 {
+font-weight: 400;
+font-size: 50px;
+line-height: 62px;
+}
+header{
+  background-color: #EFE6E4;
+  background: url(grafics/apartment.jpg) no-repeat;
+}
+.nav {
+    font-size: 16px;
+    line-height: 19.5px;
+    list-style: none;
+    }
+ main{
+    background-color: #EFE6E4;
+  }   
+ .stat ul{
+    display:block;
+    background-color: #8D7370;
+    color: #ffffff;
+    list-style: none;
+ }
+ .team,.work {
+background-color: #E2C4BA;
+ }
+ .leadform{
+background-color: #8D7370;
+color: #ffffff;
+ }
+ 
+footer{
+    background-color: #EFE6E4;
+}
+
+
+.button{
+    display: block;
+    width: 309.14px;
+    height: 74px;
+    background-color: #CC8B86;
+    color: #533738;
+}
+.arrow{
+    background-color: #CC8B86;
+   }
